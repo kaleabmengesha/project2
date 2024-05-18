@@ -1,0 +1,549 @@
+html{ scroll-behavior: smooth; }
+
+body{
+    
+    background-color: #3c3c3c;
+
+    .container{
+        background-color: rgba(0, 35, 82, 0.575);
+        border-radius: 5px;
+        display: flex;
+        height: 1140px;
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: 0.5s;
+
+    }
+
+    .container a{
+        color: white;
+        cursor: default;
+        text-decoration: none;
+
+    }
+    
+    .container a:hover {
+        color: white;
+    }
+
+    .container:hover{
+        background-color: rgb(0, 25, 71);
+    }
+
+    .main{
+        border-radius: 10px;
+        display: flex;
+        height: 1100px;
+        width: 0vw;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        flex-grow: 1;
+        box-sizing: border-box;
+        flex: 1;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        transition: 0.5s;
+        background-color: rgb(0, 24, 59);
+        box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.664);
+
+    }
+
+    .main:hover{
+        background-color: rgb(1, 31, 71);
+        box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.856);
+    }
+
+
+    .top{
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        display: flex;
+        height: 55px;
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 97%;      
+    }
+
+    .choice{
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+        align-content: center;
+        border-radius: 20px;
+        margin-right: 20px;
+        height: 25px;
+        width: 100px;
+        transition: 0.27s;
+    }
+
+    .choice a{
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        border-radius: 20px;
+        margin-right: 20px;
+        height: 25px;
+        width: 100px;
+        transition: 0.27s;
+    }
+
+    .choice a:active{
+        background-color: rgba(192, 192, 192, 0.658)
+    }
+    
+    .choice:hover{
+        background-color: rgba(62, 78, 173, 0.5);
+    }
+
+    .sub{
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 10px;
+        display: flex;
+        height: 325px;
+        width: 55px;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .choose{
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    #intel{
+        background-color: rgba(99, 99, 143, 0.562);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+
+   
+    }
+
+    #intel1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/29.webp);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+    }
+
+    #intel:hover{
+        background-color: rgb(127, 126, 182, 0.5);
+    }
+
+    #amd{
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+   
+    }
+
+    #amd1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/45.jpg);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+    }
+
+    #amd:hover{
+        background-color: rgba(127, 126, 182, 0.5);
+    }
+
+    #home{
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+   
+    }
+
+    #home1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/71.png);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+
+    #home:hover{
+        background-color: rgba(127, 126, 182, 0.5);
+    }
+
+    #about{
+        background-color: rgba(10, 10, 10, 0);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+   
+    }
+
+    #about1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/72.png);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: contain;
+        border-radius: 10px;
+
+    }
+
+    #about:hover{
+        background-color: rgba(127, 126, 182, 0.5);
+    }
+
+    #contact{
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+    }
+
+    #contact1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/73.png);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: contain;
+        border-radius: 10px;
+
+    }
+
+    #contact:hover{
+        background-color: rgba(127, 126, 182, 0.5);
+    }
+
+    #p{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin: auto;
+        text-align: center;
+        color: aliceblue;
+        text-shadow: 0px 0px 10px black;
+    }
+
+    #p:hover{
+        cursor: default;
+    }
+    
+    #cpu{
+        background-color: rgba(179, 189, 211, 0.719);
+        border-radius: 15px 15px 0px 0px;
+        height: 42px;
+        align-self: flex-end;
+        align-content: baseline;
+        text-shadow: 0px 0px 10px black;
+    }
+
+    #p1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        margin-top: 6px;
+        text-align: center;
+        color: aliceblue;
+    }
+
+    #p1:hover{
+        cursor: default;
+
+    }
+ 
+
+    .view{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-color: rgba(179, 189, 211, 0.719);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        border-radius: 12px;
+        margin: 15px;
+        margin-top: 0px;
+        height: 1000px;
+        width: 790px;
+        object-position: center;  
+    }
+
+    .low-main{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        border-radius: 12px;
+        margin: 15px;
+        margin-top: 0px;
+        height: 250px;
+        width: 790px;
+        object-position: center;
+
+        
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        border-radius: 12px;
+        margin: 15px;
+        margin-top: 0px;
+        height: 400px;
+        width: 790px;
+        object-position: center;
+
+        
+    }
+
+    .bot{
+        background-color: black;
+        border-radius: 20px;
+        width: 100%;
+        height: 300px;
+        margin: 20px;
+        opacity: 0.86;
+        transition: 0.3s;
+        box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.664);
+    }
+
+    #up{
+        background-image: url(Resources/120.webp);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 30px;
+        width: 95%;
+        height: 400px;
+        margin: 20px;
+        opacity: 0.86;
+        transition: 0.3s;
+        box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.664);
+
+
+    }
+
+    #low1{
+        background-image: url(Resources/333.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #low2{
+        background-image: url(Resources/89.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #low3{
+        background-image: url(Resources/444.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #bot1{
+        background-image: url(Resources/90.webp);
+        background-position: center;
+        background-color: white;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #bot2{
+        background-image: url(Resources/114.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .low{
+        background-color: black;
+        border-radius: 20px;
+        width: 100%;
+        height: 240px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-top: 5px;
+        opacity: 0.86;
+        transition: 0.3s;
+        box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.664);
+
+
+    }
+
+    #low1{
+        margin-left: 20px;
+    }
+
+    #low3{
+        margin-right: 20px;
+    }
+
+    #float{
+        position: inherit;
+        height: 100px;
+        width: 100px;
+        background-image: url(Resources/8.gif);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        z-index: 100;
+        margin-top: 100px;
+        box-shadow: 0px 0px 15px 2px black;
+        margin-left: 600px;
+        border-radius: 2px;
+        transition: 0.3s;
+        opacity: 1;
+        display: flex;
+    }
+
+
+    #h2{
+        font-family:Arial;
+        font-size: 13px;
+        font-weight: 550;
+        line-height: 8px;
+        margin:15px 15px 0px 20px;
+        text-shadow: 0px 0px 10px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgb(255, 255, 255); 
+
+    }
+
+    #p9{
+        font-family:Arial;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 17px;
+        margin-right: 15px;
+        margin-left:15px;
+        text-shadow: 0px 0px 6px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgb(255, 255, 255); 
+    }
+
+    #h3{
+        font-family:Arial;
+        font-size: 17px;
+        font-weight: 550;
+        line-height: 23px;
+        margin:30px 30px 0px 30px;
+        text-shadow: 0px 0px 10px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgba(255, 255, 255, 0.74); 
+
+    }
+
+    #p3{
+        font-family:Arial;
+        font-size: 12px;
+        font-weight: 550;
+        line-height: 22px;
+        margin-right: 20px;
+        margin-left:20px;
+        text-shadow: 0px 0px 10px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgba(255, 255, 255, 0.836); 
+    }
+
+    #h5{
+        font-family:Arial;
+        font-size: 12px;
+        font-weight: 550;
+        line-height: 10px;
+        
+        margin:15px 15px 0px 20px;
+        text-shadow: 0px 0px 10px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgb(255, 255, 255); 
+
+    }
+
+    #p11{
+        font-family:Arial;
+        font-size: 11px;
+        font-weight: 500;
+        line-height: 17px;
+        margin-left: 15px;
+        margin-right: 15px;
+        text-shadow: 0px 0px 10px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgb(255, 255, 255); 
+    }
+
+    .h5{
+        background-color: rgba(0, 0, 0, 0.562);
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+    .h2{
+        background-color: rgba(0, 0, 0, 0.562);
+        display: inline-block;
+        border-radius: 20px;
+    }
+
+    .h3{
+        background-color: rgba(0, 0, 0, 0.562);
+        display: inline-block;
+        border-radius: 30px;
+    }
+
+    #up:hover{
+        transform: scale(1.02);
+    }
+
+    .low:hover{
+        transform: scale(1.02);
+
+    }
+
+    .bot:hover{
+        transform: scale(1.02);
+
+    }
+    
+}

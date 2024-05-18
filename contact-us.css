@@ -1,0 +1,297 @@
+html{ scroll-behavior: smooth; }
+
+body{
+    
+    background-color: #3c3c3c;
+
+    .container{
+        background-color: rgba(0, 35, 82, 0.575);
+        border-radius: 5px;
+        display: flex;
+        height: 896px;
+        overflow: hidden;
+        box-sizing: border-box;
+        transition: 0.5s;
+
+    }
+
+    .container a{
+        color: white;
+        cursor: default;
+        text-decoration: none;
+
+    }
+    
+    .container a:hover {
+        color: white;
+    }
+
+    .container:hover{
+        background-color: rgb(0, 25, 71);
+    }
+
+    .main{
+        border-radius: 10px;
+        display: flex;
+        height: 860px;
+        width: 0vw;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        flex-grow: 1;
+        box-sizing: border-box;
+        flex: 1;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        transition: 0.5s;
+        background-color: rgb(0, 24, 59);
+        box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.664);
+
+    }
+
+    .main:hover{
+        background-color: rgb(1, 31, 71);
+        box-shadow: 0px 0px 7px 5px rgba(0, 0, 0, 0.856);
+    }
+
+    .top{
+        background-color: rgba(0, 0, 0, 0);
+        border-radius: 10px;
+        display: flex;
+        height: 55px;
+        margin-top: 10px;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: center;
+        align-items: center;
+        width: 97%;      
+    }
+
+    .choice{
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+        align-content: center;
+        border-radius: 20px;
+        margin-right: 20px;
+        height: 25px;
+        width: 100px;
+        transition: 0.27s;
+    }
+    
+    .choice:hover{
+        background-color: rgba(62, 78, 173, 0.5);
+    }
+
+    
+
+    .sub{
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 10px;
+        display: flex;
+        height: 325px;
+        width: 55px;
+        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+    .choose{
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+   
+    #contact{
+        background-color: rgba(99, 99, 143, 0.562);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+
+   
+    }
+
+    #intel1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/29.webp);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+    }
+
+    #intel:hover{
+        background-color: rgb(127, 126, 182, 0.5);
+    }
+
+    #intel{
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+   
+    }
+
+    #amd1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/45.jpg);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+
+    }
+
+    #amd:hover{
+        background-color: rgba(127, 126, 182, 0.5);
+    }
+
+    #home{
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+   
+    }
+
+    #home1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/71.png);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: cover;
+        border-radius: 10px;
+
+    }
+
+    #home:hover{
+        background-color: rgba(127, 126, 182, 0.5);
+    }
+
+    #amd{
+        background-color: rgba(10, 10, 10, 0);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+   
+    }
+
+    #about1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/72.png);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: contain;
+        border-radius: 10px;
+
+    }
+
+    #about:hover{
+        background-color: rgba(127, 126, 182, 0.5);
+    }
+
+    #about{
+        background-color: rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        margin-top: 15px;
+        height: 40px;
+        width: 40px;
+        transition: 0.3s;
+    }
+
+    #contact1{
+        position: relative;
+        width: 30px;
+        background-image: url(Resources/73.png);
+        width: 30px;
+        height: 30px;
+        background-position: center;
+        background-size: contain;
+        border-radius: 10px;
+
+    }
+
+    #contact:hover{
+        background-color: rgba(127, 126, 182, 0.5);
+    }
+ 
+
+    .view{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        background-image: url(Resources/002.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        border-radius: 12px;
+        margin: 15px;
+        margin-top: 30px;
+        height: 1000px;
+        width: 790px;
+        object-position: center;  
+    }
+
+    #h3{
+        align-self: center;
+        font-family:Arial;
+        font-size: 64px;
+        font-weight: 700;
+        line-height: 120px;
+        
+        margin:30px 0px 0px 30px;
+        text-shadow: 0px 0px 20px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgba(82, 177, 255, 0.74); 
+
+    }
+
+    #p3{
+        font-family:Arial;
+        font-size: 17px;
+        font-weight: 550;
+        line-height: 28px;
+    
+        margin-left:60px;
+        text-shadow: 0px 0px 10px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgba(235, 235, 235, 0.788); 
+    }
+
+    
+    #p100{
+        align-self: center;
+        font-size: 10px;
+        font-weight: 100px;
+        line-height: 6px;
+        text-shadow: 0px 0px 10px rgb(0, 0, 0);
+        transition: 0.29s ease-in-out;  
+        color: rgba(172, 197, 226, 0.438); 
+    }
+
+    
+}
